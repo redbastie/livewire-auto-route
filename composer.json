@@ -1,0 +1,29 @@
+{
+    "name": "redbastie/livewire-auto-route",
+    "description": "Automatic routes for your Livewire components.",
+    "homepage": "https://github.com/redbastie/livewire-auto-route",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kevin Dion",
+            "email": "redbastie@icloud.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^8.0",
+        "livewire/livewire": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Redbastie\\LivewireAutoRoute\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Redbastie\\LivewireAutoRoute\\ServiceProvider"
+            ]
+        }
+    }
+}
