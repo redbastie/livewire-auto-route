@@ -12,7 +12,7 @@ Install via composer:
 
 Specify public `$route*` properties in your full page Livewire component:
 
-    class Vehicle extends \Livewire\Component
+    class Vehicle extends Component
     {
         public $routeUri = '/vehicle/{name}';
         public $routeDomain = null;
